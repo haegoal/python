@@ -6,4 +6,4 @@ import [파일명]
 import [파일명] as [약어]
 ```
 해당 함수만 사용 
-from [함수명] import [파일명]
+from [파일명] import [함수명]
