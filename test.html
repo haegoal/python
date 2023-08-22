@@ -29,15 +29,14 @@
         <span>이름</span>
         <input name="pname"> 
     </div>
-</form>
+</form> 
 </body> 
 <script>
  
  
     function test() {
         let pcode=$(frm.pcode).val();
-        
-        
+
         if(pcode.length==11){
             let fpcode = pcode.slice(0,5) + '-' + pcode.slice(5, 7) + '-' + pcode.slice(7,11);
             alert(fpcode.substring(1,11))

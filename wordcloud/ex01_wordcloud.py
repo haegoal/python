@@ -24,4 +24,5 @@ result = wc.generate_from_frequencies(word_list_count)
 plt.axis('off') # x,y축은 필요없음으로 생략
 plt.imshow(result)
 plt.show()
-
+#워드클라우드 파일저장
+wc.to_file('wordcloud_result.png')
